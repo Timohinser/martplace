@@ -359,8 +359,7 @@
       display: flex;
       justify-content: space-between;
       background-color: #fff;
-   }
-
+   
    .slider__item-img, .slider__item-box {
       max-width: 555px;
       width: 100%;
@@ -413,36 +412,46 @@
    }
 
    .profil__product-link {
-      display: block;      
+      display: flex; 
+      justify-content: flex-start; 
+      align-items: center;    
       font-size: 15px;
       color: $blue;
-      line-height: 15px;
+      line-height: 15px;      
    }
 
-   .profil__product-svg {
+   .profil__product-img {
       width: 15px;
-      height: 15px;
-      margin-right: 8px;
-   }
-
+      height: 15px;      
+      background-repeat: no-repeat;
+      margin-right: 10px
+   }   
+      
    .box__content-text {
       line-height: 30px;
       color: $text;
       margin-bottom: 40px;
    }
+
    .box__content-links {
       font-size: 15px;
       line-height: 30px;
       color: #868c96; 
-      margin-bottom: 45px;     
+      margin-bottom: 45px; 
+      transition: all .3s;    
       & a {
          padding: 0px 15px;
          background-color: #f1f3f6;
-         border-radius: 15px;
+         border-radius: 15px; 
+         transition: all .3s;         
       }
       & a + a {
          margin-left: 10px;
       }
+   }
+
+   .box__content-links a:hover {
+      box-shadow: 0px 0px 5px 5px rgba(6, 116, 236, 0.08); 
    }
 
    .box__footer {
@@ -460,6 +469,12 @@
          background-color: $blue;
          color: #fff; 
          margin-right: 20px;
+         transition: all .3s;
+         &:hover {
+            box-shadow: 0 0 5px $blue;
+            background-color: #fff;            
+            color: $blue;         
+         }
       }
       &-like {
          padding-left: 25px;
@@ -471,8 +486,28 @@
          color: $blue;
       }
       &-rating {
-      }
-   
+
+      }   
+   }
+
+   .slick-prev.slick-arrow, .slick-next.slick-arrow {     
+      background-color: #7347c1;
+      width: 55px;
+      height:45px;      
+      outline: none;
+      border: none;
+      position: absolute;
+      top: -127px;      
+   }
+
+   .slick-prev.slick-arrow {     
+      border-radius: 27px 0 0 27px;     
+      right: 85px;
+   }
+
+   .slick-next.slick-arrow {       
+      border-radius: 0 27px 27px 0;     
+      right: 30px;
    }
 
 // =====section weekly-products end=======
