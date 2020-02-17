@@ -1,3 +1,6 @@
 $(function(){
-   var mixer = mixitup('.products__inner-box');   
+   $('.weekly-products__slider').slick({
+      
+   });
+   // var mixer = mixitup('.someClass');   
 });

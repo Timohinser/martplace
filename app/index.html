@@ -5,8 +5,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Moderno</title>
-   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet"> -->
+   <title>MartPlace</title>
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/libs.min.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -17,92 +17,380 @@
          <div class="container">
             <div class="header__top-inner">
                <div class="header__logo">
-                  <a href="#">
+                  <a class="header__logo-link" href="#">
                      <img src="images/logo.png" alt="logo">
+                     <div class="header__logo-text">
+                        Mart
+                        <span>Place</span>
+                     </div>
                   </a>
                </div>
-               <div class="header__text">
-                  <a href="#">
-                     <span>Need help?</span>
-                  </a>
-                  Talk to an expert:
-                  <a class="hesder__phone" href="tel:+61383766284"> +61 3 8376 6284 </a>
+               <div class="header__btn">
+                  <a class="header__btn-link" href="#">Become a Seller</a>
                </div>
-               <div class="header__box">
-                  <a href="" class="basket"></a>
-                  <a href="" class="header__btn header__btn-login">Login</a>
-                  <a href="" class="header__btn header__btn-register">Register</a>
+
+               <div class="header__profile">
+                  <div class="profil__box">
+                     <a href="#" class="message"></a>
+                     <a href="#" class="notification"></a>
+                     <a href="#" class="basket"></a>
+                  </div>
+                  <div class="profil__main">
+                     <a href="#" class="profil__main-logo"
+                        style="background-image: url('images/content/Taofiq-Hakim.jpg');"></a>
+                     <div class="profil__main-text">
+                        <a href="#" class="profil__main-name">Taofiq Hakim</a>
+                        <a href="#" class="profil__main-sum">$20.45</a>
+                     </div>
+                  </div>
                </div>
+
             </div>
          </div>
       </div>
+      <!-------- header-top end ---------->
+
+      <!-------- header-menu start ---------->
       <div class="header__menu">
          <div class="container">
-            <nav class="menu">
-               <ul class="menu__list">
-                  <li>
-                     <a href="#">Home</a>
-                  </li>
-                  <li>
-                     <a href="#">About</a>
-                  </li>
-                  <li>
-                     <a href="#">Wordpress</a>
-                  </li>
-                  <li>
-                     <a href="#">Joomla</a>
-                  </li>
-                  <li>
-                     <a href="#">PSD</a>
-                  </li>
-                  <li>
-                     <a href="#">Plugins</a>
-                  </li>
-                  <li>
-                     <a href="#">Components</a>
-                  </li>
-                  <li>
-                     <a href="#">Pages</a>
-                  </li>
-                  <li>
-                     <a href="#">Contact</a>
-                  </li>
-                  <li>
-                     <a href="#">Help</a>
-                  </li>
-               </ul>
-            </nav>
+            <div class="header__menu-inner">
+               <nav class="menu">
+                  <ul class="menu__list">
+                     <li>
+                        <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <a href="#">All products</a>
+                     </li>
+                     <li>
+                        <a href="#">Wordpress</a>
+                     </li>
+                     <li>
+                        <a href="#">Features</a>
+                     </li>
+                     <li>
+                        <a href="#">Pages</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="header__search">
+                  <form class="header__search-form">
+                     <input class="header__search-input" type="text" placeholder="Search product here...">
+                     <button class="header__search-button" type="submit">
+                     </button>
+                  </form>
+               </div>
+            </div>
          </div>
       </div>
    </header>
-<!-- header__menu end -->
+   <!-- header end -->
 
-<!-- section search start -->
-   <section class="search" style="background-image: url('images/search-bg.jpg')">
+   <!-- section advertisement start -->
+   <section class="advertisement">
+      <div class="container">
+         <div class="advertisement__inner">
+            <div class="advertisement__title">
+               Create Your Own
+               <span>
+                  Digital Product Marketplace
+               </span>
+            </div>
+            <div class="advertisement__text">
+               MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+            </div>
+            <div class="advertisement__buttons">
+               <a class="advertisement__buttons-all advertisement__button-active" href="#">View All Products</a>
+               <a class="advertisement__buttons-new" href="#">Popular Products</a>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- section advertisement end -->
+
+   <!-- section search start -->
+   <section class="search">
       <div class="container">
          <div class="search__inner">
-            <div class="search__inner-title">
-               Welcome To Foxtar Market Place!
+            <form class="search__form">
+               <div class="search__form-box">
+                  <input class="search__form-input" type="text" placeholder="Search your products...">
+                  <select class="search__form-select">
+                     <option>All Categories</option>
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                  </select>
+               </div>
+               <button class="search__form-button" type="submit">Search Now</button>
+            </form>
+         </div>
+      </div>
+   </section>
+   <!-- section search end -->
+
+   <!-- section features start -->
+   <section class="features">
+      <div class="container">
+         <div class="features__inner">
+            <div class="features__inner-item">
+               <div class="features__inner-wrapper">
+                  <img class="features__inner-img" src="images/content/features-img1.png" alt="img">
+               </div>
+               <div class="features__inner-title">
+                  Best UX Research
+               </div>
+               <div class="features__inner-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet diam
+                  congue is laoreet elit metus.
+               </div>
             </div>
-            <div class="search__inner-text">
-               Premium WordPress Themes, Web Templates and Many More ...
+            <div class="features__inner-item">
+               <div class="features__inner-wrapper">
+                  <img class="features__inner-img" src="images/content/features-img2.png" alt="img">
+               </div>
+               <div class="features__inner-title">
+                  Fully Responsive
+               </div>
+               <div class="features__inner-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet diam
+                  congue is laoreet elit metus.
+               </div>
             </div>
-            <div class="search__inner-form">
-               <form>
-                  <input type="text" placeholder="Search Your Keywords . . ." required>
-                  <button type="submit">
-                     <img src="images/icons/search.png" alt="search">
-                  </button>
-               </form>
+            <div class="features__inner-item">
+               <div class="features__inner-wrapper">
+                  <img class="features__inner-img" src="images/content/features-img3.png" alt="img">
+               </div>
+               <div class="features__inner-title">
+                  Buy & Sell Easily
+               </div>
+               <div class="features__inner-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet diam
+                  congue is laoreet elit metus.
+               </div>
             </div>
          </div>
       </div>
    </section>
-<!-- section search end -->
+   <!-- section features end -->
 
-<!-- section product start -->
-   <section class="products">
-      <div class="container-fluid">
+   <!-- section weekly-products start -->
+   <section class="weekly-products">
+      <div class="container">
+         <div class="weekly-products__inner">
+            <div class="weekly-products__title">
+               Weekly Featured Products
+            </div>
+            <div class="weekly-products__slider">
+               <div class="slider__wrapper">
+                  <div class="slider__item">
+                     <div class="slider__item-img" style="background-image: url('images/content/weekly-products1.jpg')">
+                     </div>
+                     <div class="slider__item-box">
+                        <div class="box__content">
+                           <div class="box__content-title">
+                              One Page Resume Template
+                           </div>
+                           <div class="box__content-profil">
+                              <a href="#" class="profil__name">
+                                 <div class="profil__name-avatar"
+                                    style="background-image: url('images/content/AazzTech.jpg')">
+                                 </div>
+                                 <div class="profil__name-name">
+                                    AazzTech
+                                 </div>
+                              </a>
+                              <a href="#" class="profil__product-link">
+                                 <svg class="profil__product-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path fill-rule="evenodd" fill="rgb(115, 71, 193)"
+                                       d="M0.166,7.666 C0.166,11.808 3.524,15.166 7.666,15.166 C11.808,15.166 15.166,11.808 15.166,7.666 C15.166,3.524 11.808,0.165 7.666,0.165 C3.524,0.165 0.166,3.524 0.166,7.666 ZM0.744,7.666 C0.744,6.662 0.960,5.710 1.344,4.849 L4.646,13.895 C2.337,12.773 0.744,10.405 0.744,7.666 ZM7.666,14.587 C6.987,14.587 6.331,14.488 5.711,14.306 L7.788,8.272 L9.916,14.101 C9.930,14.135 9.947,14.165 9.965,14.195 C9.246,14.449 8.472,14.587 7.666,14.587 ZM13.261,7.536 C13.655,6.548 13.788,5.759 13.788,5.056 C13.788,4.802 13.770,4.566 13.740,4.344 C14.280,5.331 14.587,6.462 14.587,7.666 C14.587,10.220 13.204,12.449 11.147,13.648 L13.261,7.536 ZM11.768,5.407 C12.031,5.868 12.339,6.461 12.339,7.316 C12.339,7.909 12.163,8.654 11.812,9.554 L11.122,11.860 L8.620,4.421 C9.038,4.397 9.412,4.355 9.412,4.355 C9.785,4.310 9.740,3.763 9.368,3.784 C9.368,3.784 8.247,3.872 7.523,3.872 C6.843,3.872 5.701,3.784 5.701,3.784 C5.327,3.763 5.284,4.333 5.656,4.355 C5.656,4.355 6.010,4.397 6.383,4.421 L7.460,7.376 L5.946,11.918 L3.425,4.421 C3.842,4.397 4.218,4.355 4.218,4.355 C4.591,4.310 4.545,3.763 4.173,3.784 C4.173,3.784 3.053,3.872 2.328,3.872 C2.198,3.872 2.046,3.869 1.883,3.864 C3.121,1.985 5.249,0.744 7.666,0.744 C9.469,0.744 11.109,1.433 12.340,2.562 C12.311,2.559 12.281,2.556 12.251,2.556 C11.570,2.556 11.089,3.148 11.089,3.784 C11.089,4.355 11.418,4.838 11.768,5.407 Z" />
+                                 </svg>
+                                 WordPress</a>
+                           </div>
+                           <div class="box__content-text">
+                              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                              mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                              justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                           </div>
+                           <div class="box__content-links">
+                              <a href="#">website</a>
+                              <a href="#">plugin</a>
+                              <a href="#">landing page</a>
+                           </div>
+                        </div>
+                        <div class="box__footer">
+                           <a class="box__footer-price" href="#">
+                              $10 - $50
+                           </a>
+                           <div class="box__footer-like">
+                              46
+                           </div>
+                           <div class="box__footer-buy">
+                              634
+                           </div>
+                           <div class="box__footer-rating">
+
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="slider__wrapper">
+                  <div class="slider__item">
+                     <div class="slider__item-img" style="background-image: url('images/content/weekly-products1.jpg')">
+                     </div>
+                     <div class="slider__item-box">
+                        <div class="box__content">
+                           <div class="box__content-title">
+                              One Page Resume Template
+                           </div>
+                           <div class="box__content-profil">
+                              <a href="#" class="profil__name">
+                                 <div class="profil__name-avatar"
+                                    style="background-image: url('images/content/AazzTech.jpg')">
+                                 </div>
+                                 <div class="profil__name-name">
+                                    AazzTech
+                                 </div>
+                              </a>
+                              <a href="#" class="profil__product-link">
+                                 <svg class="profil__product-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path fill-rule="evenodd" fill="rgb(115, 71, 193)"
+                                       d="M0.166,7.666 C0.166,11.808 3.524,15.166 7.666,15.166 C11.808,15.166 15.166,11.808 15.166,7.666 C15.166,3.524 11.808,0.165 7.666,0.165 C3.524,0.165 0.166,3.524 0.166,7.666 ZM0.744,7.666 C0.744,6.662 0.960,5.710 1.344,4.849 L4.646,13.895 C2.337,12.773 0.744,10.405 0.744,7.666 ZM7.666,14.587 C6.987,14.587 6.331,14.488 5.711,14.306 L7.788,8.272 L9.916,14.101 C9.930,14.135 9.947,14.165 9.965,14.195 C9.246,14.449 8.472,14.587 7.666,14.587 ZM13.261,7.536 C13.655,6.548 13.788,5.759 13.788,5.056 C13.788,4.802 13.770,4.566 13.740,4.344 C14.280,5.331 14.587,6.462 14.587,7.666 C14.587,10.220 13.204,12.449 11.147,13.648 L13.261,7.536 ZM11.768,5.407 C12.031,5.868 12.339,6.461 12.339,7.316 C12.339,7.909 12.163,8.654 11.812,9.554 L11.122,11.860 L8.620,4.421 C9.038,4.397 9.412,4.355 9.412,4.355 C9.785,4.310 9.740,3.763 9.368,3.784 C9.368,3.784 8.247,3.872 7.523,3.872 C6.843,3.872 5.701,3.784 5.701,3.784 C5.327,3.763 5.284,4.333 5.656,4.355 C5.656,4.355 6.010,4.397 6.383,4.421 L7.460,7.376 L5.946,11.918 L3.425,4.421 C3.842,4.397 4.218,4.355 4.218,4.355 C4.591,4.310 4.545,3.763 4.173,3.784 C4.173,3.784 3.053,3.872 2.328,3.872 C2.198,3.872 2.046,3.869 1.883,3.864 C3.121,1.985 5.249,0.744 7.666,0.744 C9.469,0.744 11.109,1.433 12.340,2.562 C12.311,2.559 12.281,2.556 12.251,2.556 C11.570,2.556 11.089,3.148 11.089,3.784 C11.089,4.355 11.418,4.838 11.768,5.407 Z" />
+                                 </svg>
+                                 WordPress</a>
+                           </div>
+                           <div class="box__content-text">
+                              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                              mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                              justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                           </div>
+                           <div class="box__content-links">
+                              <a href="#">website</a>
+                              <a href="#">plugin</a>
+                              <a href="#">landing page</a>
+                           </div>
+                        </div>
+                        <div class="box__footer">
+                           <a class="box__footer-price" href="#">
+                              $10 - $50
+                           </a>
+                           <div class="box__footer-like">
+                              46
+                           </div>
+                           <div class="box__footer-buy">
+                              634
+                           </div>
+                           <div class="box__footer-rating">
+
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="slider__wrapper">
+                  <div class="slider__item">
+                     <div class="slider__item-img" style="background-image: url('images/content/weekly-products1.jpg')">
+                     </div>
+                     <div class="slider__item-box">
+                        <div class="box__content">
+                           <div class="box__content-title">
+                              One Page Resume Template
+                           </div>
+                           <div class="box__content-profil">
+                              <a href="#" class="profil__name">
+                                 <div class="profil__name-avatar"
+                                    style="background-image: url('images/content/AazzTech.jpg')">
+                                 </div>
+                                 <div class="profil__name-name">
+                                    AazzTech
+                                 </div>
+                              </a>
+                              <a href="#" class="profil__product-link">
+                                 <svg class="profil__product-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path fill-rule="evenodd" fill="rgb(115, 71, 193)"
+                                       d="M0.166,7.666 C0.166,11.808 3.524,15.166 7.666,15.166 C11.808,15.166 15.166,11.808 15.166,7.666 C15.166,3.524 11.808,0.165 7.666,0.165 C3.524,0.165 0.166,3.524 0.166,7.666 ZM0.744,7.666 C0.744,6.662 0.960,5.710 1.344,4.849 L4.646,13.895 C2.337,12.773 0.744,10.405 0.744,7.666 ZM7.666,14.587 C6.987,14.587 6.331,14.488 5.711,14.306 L7.788,8.272 L9.916,14.101 C9.930,14.135 9.947,14.165 9.965,14.195 C9.246,14.449 8.472,14.587 7.666,14.587 ZM13.261,7.536 C13.655,6.548 13.788,5.759 13.788,5.056 C13.788,4.802 13.770,4.566 13.740,4.344 C14.280,5.331 14.587,6.462 14.587,7.666 C14.587,10.220 13.204,12.449 11.147,13.648 L13.261,7.536 ZM11.768,5.407 C12.031,5.868 12.339,6.461 12.339,7.316 C12.339,7.909 12.163,8.654 11.812,9.554 L11.122,11.860 L8.620,4.421 C9.038,4.397 9.412,4.355 9.412,4.355 C9.785,4.310 9.740,3.763 9.368,3.784 C9.368,3.784 8.247,3.872 7.523,3.872 C6.843,3.872 5.701,3.784 5.701,3.784 C5.327,3.763 5.284,4.333 5.656,4.355 C5.656,4.355 6.010,4.397 6.383,4.421 L7.460,7.376 L5.946,11.918 L3.425,4.421 C3.842,4.397 4.218,4.355 4.218,4.355 C4.591,4.310 4.545,3.763 4.173,3.784 C4.173,3.784 3.053,3.872 2.328,3.872 C2.198,3.872 2.046,3.869 1.883,3.864 C3.121,1.985 5.249,0.744 7.666,0.744 C9.469,0.744 11.109,1.433 12.340,2.562 C12.311,2.559 12.281,2.556 12.251,2.556 C11.570,2.556 11.089,3.148 11.089,3.784 C11.089,4.355 11.418,4.838 11.768,5.407 Z" />
+                                 </svg>
+                                 WordPress</a>
+                           </div>
+                           <div class="box__content-text">
+                              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                              mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                              justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                           </div>
+                           <div class="box__content-links">
+                              <a href="#">website</a>
+                              <a href="#">plugin</a>
+                              <a href="#">landing page</a>
+                           </div>
+                        </div>
+                        <div class="box__footer">
+                           <a class="box__footer-price" href="#">
+                              $10 - $50
+                           </a>
+                           <div class="box__footer-like">
+                              46
+                           </div>
+                           <div class="box__footer-buy">
+                              634
+                           </div>
+                           <div class="box__footer-rating">
+
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+   <!-- section weekly-products end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- section product start -->
+   <!-- <section class="products">
+         <div class="container-fluid">
          <div class="products__ttile title">
             Let’s Check Out Our Newest Release Prodcuts
          </div>
@@ -115,9 +403,9 @@
                <button type="button" data-filter=".category-conponent">Component</button>
                <button type="button" data-filter=".category-psd">PSD</button>
             </div>
-            <div class="products__inner-box">
+            <div class="products__inner-box"> -->
    <!-- product item1 start -->
-               <div class="product__item mix category-wordpress category-popular">
+   <!-- <div class="product__item mix category-wordpress category-popular">
                   <a class="product__item-img" href="#" style="background-image: url('images/content/product-item1.jpg')"></a>
                   <div class="product__item-content">
                      <div class="product__item-name">
@@ -141,215 +429,20 @@
                         (05)
                      </div>  
                   </div>                  
-               </div>
+               </div> -->
    <!-- product item1 end -->
 
-   <!-- product item2 start -->
-               <div class="product__item mix category-psd category-new">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item2.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           The Post Grid Pro
-                        </a>
-                        <a class="product__item-category" href="#">
-                           WordPress Plugin
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $15
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author2.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item2 end -->
 
-   <!-- product item3 start -->
-               <div class="product__item mix category-joomla category-popular category-new">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item3.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           Food Menu
-                        </a>
-                        <a class="product__item-category" href="#">
-                           WordPress Plugin
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $20
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author3.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item3 end -->
-
-   <!-- product item4 start -->
-               <div class="product__item mix category-wordpress">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item4.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           Imac Mockup
-                        </a>
-                        <a class="product__item-category" href="#">
-                           Psd Template
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $12
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author4.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item4 end -->
-
-   <!-- product item5 start -->
-               <div class="product__item mix category-psd category-new">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item5.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           Gymedge
-                        </a>
-                        <a class="product__item-category" href="#">
-                           oomla Template
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $45
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author5.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item5 end -->
-
-   <!-- product item6 start -->
-               <div class="product__item mix category-plugins category-popular category-new">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item6.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           The Post Grid Pro
-                        </a>
-                        <a class="product__item-category" href="#">
-                           WordPress Plugin
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $19
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author6.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item6 end -->
-
-   <!-- product item7 start -->
-               <div class="product__item mix category-conponent category-new">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item7.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           Doll Face
-                        </a>
-                        <a class="product__item-category" href="#">
-                           Illsatration
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $10
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author7.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item7 end -->
-
-   <!-- product item8 start -->
-               <div class="product__item mix category-psd category-popular">
-                  <a class="product__item-img" href="#" style="background-image: url('images/content/product-item8.jpg')"></a>
-                  <div class="product__item-content">
-                     <div class="product__item-name">
-                        <a class="product__item-title" href="#">
-                           Designer Mockup
-                        </a>
-                        <a class="product__item-category" href="#">
-                           PsdTemplate
-                        </a> 
-                     </div>
-                     <div class="product__item-price">
-                        $10
-                     </div>
-                  </div>
-                  <div class="product__item-info">
-                     <a class="product__item-author" href="#">
-                        <div class="avatar" style="background-image: url('images/content/author8.jpg');"></div>
-                        <span>Radiustheme</span>
-                     </a>
-                     <div class="product__item-star">
-                        (05)
-                     </div>  
-                  </div>                  
-               </div>
-   <!-- product item8 end -->
-
+   <!-- 
             </div>
-         </div>
-         <div class="products__bottom-btn">
+         </div> -->
+   <!-- <div class="products__bottom-btn">
             <button type="button" data-filter=".category-new">All New Items</button>
             <button type="button" data-filter=".category-popular">Popular Items</button>
-         </div>
-      </div>
-   </section>   
+         </div> -->
+   <!-- </div>
+   </section>    -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
    <script src="js/libs.min.js"></script>
    <script src="js/main.js"></script>
 </body>
